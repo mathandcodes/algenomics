@@ -19,7 +19,14 @@ from algenomics import (
     RNApolymerase,
 )
 
-dna = DNA("AATT")
+dna = DNA("AATTCCGC")
+
+# output 
+> print(dna)
+> 'C': 3; 'A': 2; 'T': 2; 'G': 1
+> 'length': 8
+> DNA('AATTCCGC')
+
 # 
 ```
 
